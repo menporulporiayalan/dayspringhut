@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '~> 2.3.1'
+ruby '~> 2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
@@ -16,7 +16,7 @@ gem 'merit'
 gem 'jquery-atwho-rails'
 
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
@@ -42,7 +42,7 @@ group :production do
   gem 'fog-aws'
 end
 
-gem 'devise'
+gem 'devise', '~> 4.7.1'
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0'
 
